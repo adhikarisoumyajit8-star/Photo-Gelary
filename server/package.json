@@ -1,0 +1,17 @@
+{
+  "name": "photo-gallery-server",
+  "version": "1.0.0",
+  "description": "Photo Gallery API Server with Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.4",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
